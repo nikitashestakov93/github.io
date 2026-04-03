@@ -4,11 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Никита Шестаков</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
   <meta name="description" content="Никита Шестаков — архитектор и дизайнер интерьеров в Новосибирске. Минималистичные, функциональные пространства из натуральных материалов. Портфолио жилых и коммерческих проектов.">
   <meta name="keywords" content="дизайн интерьера, архитектор, Новосибирск, минимализм, натуральные материалы, дизайнер интерьеров">
   <meta name="author" content="Никита Шестаков">
@@ -17,11 +12,11 @@
   <meta property="og:description" content="Минималистичные, функциональные пространства из натуральных материалов. Портфолио жилых и коммерческих проектов в Новосибирске.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ru_RU">
-  <meta property="og:url" content="https://nikitashestakov.com/">
+  <meta property="og:url" content="https://nikitashestakov.ru/">
   <!-- v= как PHOTO_CACHE_VERSION в js/main.js -->
-  <meta property="og:image" content="https://nikitashestakov.com/images/projects/krasniy-prospekt/10.jpg?v=12">
+  <meta property="og:image" content="https://nikitashestakov.ru/images/projects/krasniy-prospekt/10.jpg?v=10">
 
-  <link rel="canonical" href="https://nikitashestakov.com/">
+  <link rel="canonical" href="https://nikitashestakov.ru/">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Никита Шестаков — архитектор и дизайнер интерьеров">
@@ -33,7 +28,7 @@
     "@type": "ProfessionalService",
     "name": "Никита Шестаков",
     "description": "Архитектор и дизайнер интерьеров. Минималистичные, функциональные пространства из натуральных материалов.",
-    "url": "https://nikitashestakov.com/",
+    "url": "https://nikitashestakov.ru/",
     "telephone": "+79133746934",
     "email": "nikitashestakov93@gmail.com",
     "address": {
@@ -78,8 +73,8 @@ html, body {
 
 body {
   font-family: var(--font-sans);
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 300;
+  font-size: 14px;
   line-height: 1.6;
   color: var(--color-text);
   background: var(--color-bg);
@@ -123,7 +118,6 @@ button {
   letter-spacing: 0.01em;
   transition: color 0.3s var(--ease);
   user-select: none;
-  cursor: pointer;
 }
 
 .corner-nav__link:hover {
@@ -146,7 +140,7 @@ body.on-project-page #navProjects:hover {
 .corner-nav__link--tl {
   top: 24px;
   left: 24px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .corner-nav__link--tr {
@@ -173,7 +167,6 @@ body.on-project-page #navProjects:hover {
 .corner-nav__lang-option {
   color: #bbb;
   transition: color 0.3s var(--ease);
-  cursor: pointer;
 }
 
 .corner-nav__lang-option:hover {
@@ -210,7 +203,7 @@ body.on-project-page #navProjects:hover {
   background: #fff;
   align-items: center;
   justify-content: center;
-  cursor: default;
+  cursor: pointer;
 }
 
 .home-slider {
@@ -242,7 +235,6 @@ body.on-project-page #navProjects:hover {
   object-fit: contain;
   user-select: none;
   -webkit-user-drag: none;
-  cursor: pointer;
 }
 
 .slider-arrow {
@@ -311,7 +303,7 @@ body.on-project-page #navProjects:hover {
 }
 
 .projects-carousel__plan-placeholder {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--color-text-light);
 }
 
@@ -457,7 +449,7 @@ body.on-project-page #navProjects:hover {
 }
 
 .project-page__plan-placeholder {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--color-text-light);
 }
 
@@ -531,7 +523,7 @@ body.on-project-page #navProjects:hover {
   width: 100%;
   height: 70vh;
   min-height: 360px;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--color-text-light);
   text-align: center;
   padding: 48px;
@@ -575,7 +567,7 @@ body.on-project-page #navProjects:hover {
 }
 
 .project-page__title {
-  font-size: 18px;
+  font-size: clamp(18px, 2.5vw, 24px);
   font-weight: 400;
   color: var(--color-text-dark);
   line-height: 1.2;
@@ -584,7 +576,7 @@ body.on-project-page #navProjects:hover {
 }
 
 .project-page__meta {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 300;
   color: var(--color-text-light);
   letter-spacing: 0.02em;
@@ -592,7 +584,7 @@ body.on-project-page #navProjects:hover {
 }
 
 .project-page__description {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 1.85;
   color: var(--color-text);
@@ -667,7 +659,7 @@ body.on-project-page #navProjects:hover {
   position: absolute;
   bottom: 24px;
   right: 32px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 300;
   color: var(--color-text-light);
   letter-spacing: 0.1em;
@@ -715,7 +707,7 @@ body.on-project-page #navProjects:hover {
 }
 
 .about-text p {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.7;
   color: var(--color-text);
@@ -777,7 +769,7 @@ body.on-project-page #navProjects:hover {
 }
 
 .about-page__contacts-col .contact-content__value {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 300;
   color: var(--color-text-dark);
   transition: color 0.3s var(--ease);
@@ -791,15 +783,15 @@ body.on-project-page #navProjects:hover {
 /* ===== Responsive ===== */
 @media (max-width: 900px) {
   .corner-nav__link {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .corner-nav__link--tl {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .corner-nav__lang-switch {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   /* One frame for home slide + about photo + project lead photo (corner nav vars). */
@@ -1121,11 +1113,11 @@ body.on-project-page #navProjects:hover {
   }
 
   .about-text p {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .project-page__description {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.7;
   }
 }
@@ -1196,7 +1188,7 @@ body.on-project-page #navProjects:hover {
         </div>
       </div>
       <div class="about-page__photo">
-        <img src="/images/nikita-photo.jpg?v=12" alt="Никита Шестаков" loading="lazy" decoding="async">
+        <img src="images/nikita-photo.jpg?v=10" alt="Никита Шестаков" loading="lazy" decoding="async">
       </div>
       <div class="about-page__contacts-col" id="contactSection">
         <div class="contact-content__group">
@@ -1253,10 +1245,10 @@ body.on-project-page #navProjects:hover {
       menuProjects: 'Проекты',
       menuAbout: 'Обо мне',
       descriptionSoon: '<p>Описание скоро появится.</p>',
-      aboutP1: 'Я архитектор и дизайнер, формирующий собственный подход к пространству через практический опыт, внимание к материалу и понимание влияния среды на человека.',
-      aboutP2: 'Моё техническое образование в НГТУ заложило основу системного мышления и работы с конструкцией.',
-      aboutP3: 'Мой профессиональный путь начался в Австралии с практической работы по сборке и установке офисной мебели — этот опыт дал мне глубокое понимание деталей, эргономики и того, как человек взаимодействует с предметной средой. Позднее я получил архитектурное образование в НГАХА и работал дизайнером интерьеров в IKEA, где развивал навыки создания функциональных, продуманных и доступных пространств.',
-      aboutP4: 'Сегодня я веду частную практику, создавая проекты, основанные на ясности, балансе формы и функции. В своей работе я уделяю особое внимание пропорциям, деталям и натуральным материалам — прежде всего дереву и камню, стремясь раскрыть их естественную эстетику в современном архитектурном контексте.',
+      aboutP1: 'Никита Шестаков — архитектор и дизайнер, формирующий собственный подход к пространству через практический опыт, внимание к материалу и понимание влияния среды на человека.',
+      aboutP2: 'Техническое образование в НГТУ заложило основу системного мышления и работы с конструкцией. Профессиональный путь начался в Австралии с практической работы по сборке и установке офисной мебели, что дало глубокое понимание деталей, эргономики и взаимодействия человека с предметной средой.',
+      aboutP3: 'Позднее Никита получил архитектурное образование в НГАХА и работал дизайнером интерьеров в IKEA, где развивал навыки создания функциональных, продуманных и доступных пространств.',
+      aboutP4: 'Сегодня он ведёт частную практику, создавая проекты, основанные на ясности, балансе формы и функции. В работе особое внимание уделяет пропорциям, деталям и натуральным материалам — прежде всего дереву и камню, раскрывая их естественную эстетику в современном архитектурном контексте.',
       contactPhone: 'Телефон',
       contactEmail: 'Почта',
       contactInstagram: 'Instagram',
@@ -1268,10 +1260,10 @@ body.on-project-page #navProjects:hover {
       menuProjects: 'Projects',
       menuAbout: 'About',
       descriptionSoon: '<p>Description coming soon.</p>',
-      aboutP1: 'I am an architect and designer shaping my approach to space through hands-on experience, attention to materials, and an understanding of how the environment influences people.',
-      aboutP2: 'My technical education at NSTU laid the foundation for systemic thinking and working with structure.',
-      aboutP3: 'My professional path began in Australia with practical experience building and installing office furniture — this gave me a deep understanding of details, ergonomics, and how people interact with the built environment. Later, I received an architectural education from NGAHA and worked as an interior designer at IKEA, where I developed skills in creating functional, well-considered, and accessible spaces.',
-      aboutP4: 'Today I run my private practice, creating projects based on clarity and a balance between form and function. In my work, I pay special attention to proportions, details, and natural materials — above all, wood and stone — aiming to reveal their natural aesthetics in a contemporary architectural context.',
+      aboutP1: 'Nikita Shestakov is an architect and designer who shapes his approach to space through hands-on experience, attention to materials, and an understanding of how environment influences people.',
+      aboutP2: 'A technical education at NSTU laid the foundation for systematic thinking and working with structure. His professional path began in Australia, where he assembled and installed office furniture — this gave him a deep understanding of details, ergonomics, and the way people interact with the built environment.',
+      aboutP3: 'Later he earned a degree in architecture from NGAHA and worked as an interior designer at IKEA, developing skills in creating functional, thoughtful and accessible spaces.',
+      aboutP4: 'Today he runs his own practice, creating projects based on clarity and a balance between form and function. His work places particular emphasis on proportions, detailing, and natural materials — especially wood and stone — revealing their inherent beauty within a contemporary architectural context.',
       contactPhone: 'Phone',
       contactEmail: 'Email',
       contactInstagram: 'Instagram',
@@ -1294,20 +1286,9 @@ body.on-project-page #navProjects:hover {
   ];
 
   /** Сброс кэша для всех картинок и PDF планов; подними при следующей замене файлов. Синхронизируй ?v= в index.html (og:image, nikita-photo). */
-  const PHOTO_CACHE_VERSION = '12';
-
-  /** Полный URL к статике: на /project/… относительные images/… ломаются; так же надёжнее на *.pages.dev */
-  function assetUrl(pathFromRoot) {
-    const path = pathFromRoot.startsWith('/') ? pathFromRoot : `/${pathFromRoot}`;
-    const proto = window.location.protocol;
-    if (proto === 'http:' || proto === 'https:') {
-      return `${window.location.origin}${path}`;
-    }
-    return path;
-  }
-
-  const planPreviewUrl = (slug) => assetUrl(`/images/plans-preview/${slug}.png?v=${PHOTO_CACHE_VERSION}`);
-  const planPdfUrl = (slug) => assetUrl(`/images/plans/${slug}.pdf?v=${PHOTO_CACHE_VERSION}`);
+  const PHOTO_CACHE_VERSION = '10';
+  const planPreviewUrl = (slug) => `images/plans-preview/${slug}.png?v=${PHOTO_CACHE_VERSION}`;
+  const planPdfUrl = (slug) => `images/plans/${slug}.pdf?v=${PHOTO_CACHE_VERSION}`;
 
   const projectsData = {
     'chelyuskintsev-3': {
@@ -1487,7 +1468,7 @@ body.on-project-page #navProjects:hover {
     if (homeExcludedProjects.includes(id)) continue;
     const imgs = [];
     for (let i = 1; i <= projectsData[id].images; i++) {
-      imgs.push(assetUrl(`/images/hero/${id}/${String(i).padStart(2, '0')}.jpg?v=${PHOTO_CACHE_VERSION}`));
+      imgs.push(`images/hero/${id}/${String(i).padStart(2, '0')}.jpg?v=${PHOTO_CACHE_VERSION}`);
     }
     homeImagesByProject[id] = imgs;
   }
@@ -1573,21 +1554,6 @@ body.on-project-page #navProjects:hover {
   let projectLayoutNarrowSnapshot = null;
   let homeSlideIndex = 0;
   let projectSwipeExitLock = false;
-  const SITE_ORIGIN = 'https://nikitashestakov.com';
-  const DEFAULT_SEO = {
-    ru: {
-      title: 'Никита Шестаков',
-      description: 'Никита Шестаков — архитектор и дизайнер интерьеров в Новосибирске. Минималистичные, функциональные пространства из натуральных материалов.',
-      ogTitle: 'Никита Шестаков — архитектор и дизайнер интерьеров',
-      ogDescription: 'Минималистичные, функциональные пространства из натуральных материалов. Портфолио жилых и коммерческих проектов в Новосибирске.'
-    },
-    en: {
-      title: 'Nikita Shestakov',
-      description: 'Nikita Shestakov — architect and interior designer in Novosibirsk. Minimalist, functional spaces crafted from natural materials.',
-      ogTitle: 'Nikita Shestakov — architect and interior designer',
-      ogDescription: 'Minimalist, functional spaces crafted from natural materials. Portfolio of residential and commercial projects.'
-    }
-  };
 
   function t(key) {
     return i18n[currentLang][key] || key;
@@ -1595,99 +1561,6 @@ body.on-project-page #navProjects:hover {
 
   function isMobileHomeLayout() {
     return window.matchMedia && window.matchMedia('(max-width: 900px)').matches;
-  }
-
-  function stripHtml(html) {
-    const div = document.createElement('div');
-    div.innerHTML = html || '';
-    return (div.textContent || div.innerText || '').replace(/\s+/g, ' ').trim();
-  }
-
-  function projectUrl(id) {
-    return `${SITE_ORIGIN}/project/${id}`;
-  }
-
-  function updateSeoMetadata() {
-    const seo = DEFAULT_SEO[currentLang];
-    let title = seo.title;
-    let description = seo.description;
-    let ogTitle = seo.ogTitle;
-    let ogDescription = seo.ogDescription;
-    let canonical = `${SITE_ORIGIN}/`;
-    let ogUrl = canonical;
-    let ogImage = `${SITE_ORIGIN}/images/projects/krasniy-prospekt/10.jpg?v=${PHOTO_CACHE_VERSION}`;
-
-    if (currentScreen === screenProject && currentProjectId && projectsData[currentProjectId]) {
-      const data = projectsData[currentProjectId];
-      const projectTitle = data.title[currentLang];
-      const projectMetaLine = data.meta[currentLang];
-      const projectDesc = stripHtml(data.description[currentLang] || '');
-      title = `${projectTitle} — ${seo.title}`;
-      description = projectDesc || `${projectTitle}. ${projectMetaLine}`;
-      ogTitle = `${projectTitle} — ${seo.ogTitle}`;
-      ogDescription = projectDesc || `${projectTitle}. ${projectMetaLine}`;
-      canonical = projectUrl(currentProjectId);
-      ogUrl = canonical;
-      ogImage = `${SITE_ORIGIN}/images/projects/${currentProjectId}/01.jpg?v=${PHOTO_CACHE_VERSION}`;
-    } else if (currentScreen === screenAbout) {
-      title = currentLang === 'ru' ? `Обо мне — ${seo.title}` : `About — ${seo.title}`;
-      canonical = `${SITE_ORIGIN}/about`;
-      ogUrl = canonical;
-    } else if (currentScreen === screenProjects) {
-      title = currentLang === 'ru' ? `Проекты — ${seo.title}` : `Projects — ${seo.title}`;
-      canonical = `${SITE_ORIGIN}/projects`;
-      ogUrl = canonical;
-    }
-
-    document.title = title;
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', description);
-    const ogTitleMeta = document.querySelector('meta[property="og:title"]');
-    if (ogTitleMeta) ogTitleMeta.setAttribute('content', ogTitle);
-    const ogDescMeta = document.querySelector('meta[property="og:description"]');
-    if (ogDescMeta) ogDescMeta.setAttribute('content', ogDescription);
-    const ogUrlMeta = document.querySelector('meta[property="og:url"]');
-    if (ogUrlMeta) ogUrlMeta.setAttribute('content', ogUrl);
-    const ogImageMeta = document.querySelector('meta[property="og:image"]');
-    if (ogImageMeta) ogImageMeta.setAttribute('content', ogImage);
-    const twitterTitleMeta = document.querySelector('meta[name="twitter:title"]');
-    if (twitterTitleMeta) twitterTitleMeta.setAttribute('content', ogTitle);
-    const twitterDescMeta = document.querySelector('meta[name="twitter:description"]');
-    if (twitterDescMeta) twitterDescMeta.setAttribute('content', ogDescription);
-    const canonicalLink = document.querySelector('link[rel="canonical"]');
-    if (canonicalLink) canonicalLink.setAttribute('href', canonical);
-  }
-
-  function setRouteForScreen(screen, options = {}) {
-    if (options.skipRouteUpdate) return;
-    let nextPath = '/';
-    if (screen === screenProjects) nextPath = '/projects';
-    if (screen === screenAbout) nextPath = '/about';
-    if (screen === screenProject && currentProjectId) nextPath = `/project/${currentProjectId}`;
-    const nextUrl = `${nextPath}${window.location.search || ''}`;
-    if (`${window.location.pathname}${window.location.search}` !== nextUrl) {
-      history.pushState({}, '', nextUrl);
-    }
-  }
-
-  function applyRouteFromLocation() {
-    const path = window.location.pathname.replace(/\/+$/, '') || '/';
-    if (path === '/about') {
-      showScreen(screenAbout, { skipRouteUpdate: true });
-      return;
-    }
-    if (path === '/projects') {
-      showScreen(screenProjects, { skipRouteUpdate: true });
-      return;
-    }
-    if (path.startsWith('/project/')) {
-      const id = path.slice('/project/'.length);
-      if (projectsData[id]) {
-        openProject(id, { skipRouteUpdate: true });
-        return;
-      }
-    }
-    showScreen(screenHome, { skipRouteUpdate: true });
   }
 
   // ===== Apply language to all UI =====
@@ -1716,8 +1589,16 @@ body.on-project-page #navProjects:hover {
     const cityVal = document.querySelectorAll('.contact-content__value');
     cityVal[3].textContent = t('cityValue');
 
+    document.title = currentLang === 'ru' ? 'Никита Шестаков' : 'Nikita Shestakov';
+
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      metaDesc.content = currentLang === 'ru'
+        ? 'Никита Шестаков — архитектор и дизайнер интерьеров в Новосибирске. Минималистичные, функциональные пространства из натуральных материалов.'
+        : 'Nikita Shestakov — architect and interior designer in Novosibirsk. Minimalist, functional spaces crafted from natural materials.';
+    }
+
     buildProjectsCarousel();
-    updateSeoMetadata();
 
     if (currentProjectId && currentScreen === screenProject) {
       const data = projectsData[currentProjectId];
@@ -1805,7 +1686,7 @@ body.on-project-page #navProjects:hover {
     });
   }
 
-  function showScreen(screen, options = {}) {
+  function showScreen(screen) {
     if (screen === currentScreen) return;
 
     if (screen === screenProjects || screen === screenProject) {
@@ -1853,8 +1734,6 @@ body.on-project-page #navProjects:hover {
         setTimeout(syncAboutPhotoToTextGap, 250);
       });
     }
-    setRouteForScreen(screen, options);
-    updateSeoMetadata();
   }
 
   /** Open projects list; if coming from a project screen, scroll that slide into view. */
@@ -1925,8 +1804,6 @@ body.on-project-page #navProjects:hover {
       currentScreen = screenProjects;
       document.body.classList.remove('on-project-page');
       updateActiveNav();
-      setRouteForScreen(screenProjects);
-      updateSeoMetadata();
 
       if (returnToProject) {
         const slide = projectsCarouselTrack.querySelector(`[data-project="${returnToProject}"]`);
@@ -2131,22 +2008,17 @@ body.on-project-page #navProjects:hover {
   }
 
   screenHome.addEventListener('click', (e) => {
-    // Переключаем слайд только по самой фотографии (не по любому месту экрана).
     if (e.target.closest('.corner-nav')) return;
-    if (!e.target.closest('.home-slider__slide img')) return;
     showHomeSlide(homeSlideIndex + 1);
     resetHomeAutoPlay();
   });
 
   let touchStartX = 0;
-  let touchOnHomePhoto = false;
   screenHome.addEventListener('touchstart', (e) => {
     touchStartX = e.changedTouches[0].screenX;
-    touchOnHomePhoto = Boolean(e.target.closest('.home-slider__slide img'));
   }, { passive: true });
 
   screenHome.addEventListener('touchend', (e) => {
-    if (!touchOnHomePhoto) return;
     const diff = touchStartX - e.changedTouches[0].screenX;
     if (Math.abs(diff) > 30) {
       e.preventDefault();
@@ -2280,7 +2152,7 @@ body.on-project-page #navProjects:hover {
     setTimeout(run, 120);
   }
 
-  function openProject(id, options = {}) {
+  function openProject(id) {
     const data = projectsData[id];
     if (!data) return;
 
@@ -2291,9 +2163,6 @@ body.on-project-page #navProjects:hover {
     projectDescription.innerHTML = desc || t('descriptionSoon');
 
     projectPhotoTrack.style.gap = '';
-    if (!isMobileHomeLayout() && id === 'ippodromskaya-50') {
-      projectPhotoTrack.style.gap = '160px';
-    }
 
     // Plan column (right)
     if (data.planPreview) {
@@ -2352,7 +2221,7 @@ body.on-project-page #navProjects:hover {
       slide.className = 'project-page__photo-slide';
 
       const img = document.createElement('img');
-      img.src = assetUrl(`/images/projects/${id}/${num}.jpg?v=${PHOTO_CACHE_VERSION}`);
+      img.src = `images/projects/${id}/${num}.jpg?v=${PHOTO_CACHE_VERSION}`;
       img.alt = `${data.title[currentLang]} — ${currentLang === 'ru' ? 'фото' : 'photo'} ${i}`;
       img.loading = isMobileHomeLayout() ? (i > 2 ? 'lazy' : 'eager') : (i > 1 ? 'lazy' : 'eager');
       img.decoding = 'async';
@@ -2361,9 +2230,6 @@ body.on-project-page #navProjects:hover {
         img.style.setProperty('width', '40vw', 'important');
         img.style.setProperty('max-width', '40vw', 'important');
         img.style.setProperty('max-height', '66.5vh', 'important');
-      }
-      if (id === 'lenina-79' && (i === 9 || i === 12)) {
-        img.style.setProperty('max-width', 'calc(0.665 * 75vh)', 'important');
       }
       img.onload = function() {
         if (id === 'marsel' && i === 4 && !isMobileHomeLayout()) {
@@ -2428,12 +2294,10 @@ body.on-project-page #navProjects:hover {
       projectPhotoSlideElements = slides;
     }
 
-    showScreen(screenProject, { skipRouteUpdate: true });
+    showScreen(screenProject);
     screenProject.scrollTop = 0;
     projectPhotoCarousel.scrollTop = 0;
     scheduleProjectLayoutSync();
-    setRouteForScreen(screenProject, options);
-    updateSeoMetadata();
 
     projectLayoutNarrowSnapshot = isNarrow;
   }
@@ -2452,9 +2316,6 @@ body.on-project-page #navProjects:hover {
     }
     scheduleSyncHomeCornerNav();
     if (currentScreen === screenAbout) syncAboutPhotoToTextGap();
-  });
-  window.addEventListener('popstate', () => {
-    applyRouteFromLocation();
   });
 
   // ===== Fullscreen slider =====
@@ -2651,7 +2512,6 @@ body.on-project-page #navProjects:hover {
   applyLanguage();
   updateActiveNav();
   scheduleSyncHomeCornerNav();
-  applyRouteFromLocation();
 
 })();
 
